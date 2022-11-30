@@ -120,7 +120,6 @@ mejor mi tiempo`}/>
             
       </div>
       <div className='Contenido2'> 
-          {/* <img className= 'Imagen_fondo Imagen_fondo2 ' src= {imagenes (`./BOTTOM_BACKGROUND.png`) } alt='Imagen background'/>  */}
           </div>
       </div>
          
