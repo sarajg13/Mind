@@ -1,38 +1,223 @@
+
+/* Estilos golobales ///////////////////// */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 .App {
+  min-height: 100vh;
+  display: flex;
+  font-family:'Roboto', sans-serif;
+  color: #00003c;
+}
+
+.Imagen_fondo {
+  width:100%;
+
+}
+
+
+.Contenido {
+  position: absolute;
+}
+
+/* Estilos del menu//////////////////////////////////// */
+
+.Nav_container {
+padding: 5rem 5rem 4rem 9rem;
+display: flex;
+flex-direction: row; 
+justify-content: space-between;
+align-items: center;
+gap: 6rem;
+position: relative;
+
+}
+
+.Nav_url{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.Item_nav{
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 700;
+color: #00003c;
+}
+
+.Logo{
+  height: 1rem;
+}
+
+.Logo-tyni{
+  height: 2rem;
+  position: absolute;
+  top: 53%;
+  left: 9%;
+  transform: translate(-50% , -50%);
+}
+
+/* Estilos del heading//////////////////////////////////// */
+
+.Container_heading{
+  position: relative;
+
+}
+.Text_heading{
+  font-size:2em;
+  padding: 0.5rem;
+  margin: 6rem 2rem 0rem 9rem ;
+  display:inline-block
+}
+
+
+.People-image{
+  width: 70%;
+  position: absolute;
+  top: 220%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos de iconos de google play */
+/* debo convertirlo en componente//////////////////////// */
+.Container_dowland{
+  margin:52rem 0rem 8rem 10rem;
+  display: flex;
+  flex-direction: row; 
+  align-items:center;
+  gap: 14.5rem;
+}
+
+.Container_text-dowland{
+  display:flex;
+  flex-direction:column;
+
+}
+
+.Container_icons{
+  display: flex;
+  gap: 1.2rem;
+}
+/* Estilos de los subtitulos de toda la pagina */
+.subtittles{
+  font-weight: 700;
+  font-size:2.9rem ;
+}
+
+.Text-dowland {
+  font-size:1.1rem;
+  font-weight: 500;
+  margin-top:3px;
+
+}
+
+.Icon-dowland{
+  height: 3.5rem;
+}
+
+/* ///////////////////////// */
+
+.Cointainer_tittle{
+  padding: 2.7rem 12rem 3.5rem 10rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Tittles{
+  font-weight: 700;
+  font-size:3.5rem ;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Container_screen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 4rem 8rem 17rem 10rem;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Text-subtittle{
+  font-size: 2.2rem;
+  font-weight:400;
+}
+
+.Screen-img {
+  width:14rem;
+  margin-left: 12px;
+  
+}
+
+.Text-subtittle_container {
+  margin-left: 35px;
+}
+
+.Container-text_patrones{
+  margin-left:10rem;
+}
+
+.Axis{
+  width: 35rem;
+  position: absolute;
+  top: 52.5%;
+  left: 47%;
+  transform: translate(-50% , -50%);
+}
+
+.Axis-world2{
+  position: absolute;
+  top: 52%;
+  left: 17%;
+  transform: rotate(-90deg);
+  font-size:2.2rem
+}
+
+.Axis-world1{
+  font-size:2.2rem;
+  position: absolute;
+  top: 57.2%;
+  left: 39%;
+}
+
+.Titles-sub{
+  margin-left:10rem;
+  margin-bottom:5rem;
+}
+
+.Container_screen2{
+  align-items: flex-start;
+}
+
+.Text-subtittle_container{
+  margin-right: 3rem;
+}
+
+.Shading{
+  font-weight: 900;
+}
+
+.Text-recomendaciones{
+  font-size: 2.2rem;
+  font-weight:400;
+  text-align: center;
+  margin-bottom:4rem;
+
+}
+.Container_retos{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 15px;
+  margin-bottom:15rem;
 }
 
-.App-link {
-  color: #61dafb;
+.Text_habilidades{
+  margin-left:15rem;
+  margin-bottom:3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

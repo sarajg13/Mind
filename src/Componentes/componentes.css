@@ -1,0 +1,53 @@
+
+.Buttons{
+  font-family:'Roboto', sans-serif;
+  font-weight: 700;
+  background-color: #00003c;
+  border-radius: 50px;
+  color: azure;
+  padding: 0.5rem 1rem;
+  font-size: 1.2em;
+  }
+
+  /*Estilos del componente Bubble//////////////////////*/
+  .Bubble-img1 {
+  width:20rem;
+  position: absolute;
+  top: 220%;
+  left: 83%;
+  transform: translate(-50% , -50%);
+}
+
+.message_bubble1 {
+    position:absolute;
+    top: 210%;
+    left: 83%;
+    transform: translate(-50% , -50%);
+    font-size:28px;
+    font-family:'Roboto', sans-serif;
+    font-weight:900;
+    color:'#00003c';
+    white-space:pre-wrap
+    
+  }
+
+  .Bubble-img2 {
+    width:20rem;
+    position: absolute;
+    top: 240%;
+    left: 20%;
+    transform: translate(-50% , -50%);
+  }
+  
+  .message_bubble2 {
+      position:absolute;
+      top: 233%;
+      left: 20%;
+      transform: translate(-50% , -50%);
+      font-size:28px;
+      font-family:'Roboto', sans-serif;
+      font-weight:900;
+      color:'#00003c';
+      white-space:pre-wrap
+      
+    }
