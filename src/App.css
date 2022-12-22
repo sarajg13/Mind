@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .App {
   min-height: 100vh;
   display: flex;
@@ -21,25 +25,29 @@
 
 .Contenido {
   position: absolute;
+  width: 1200px;
+  min-width: 300px;
 }
 
 /* Estilos del menu//////////////////////////////////// */
 
+
+
 .Nav_container {
-padding: 5rem 5rem 4rem 9rem;
+padding: 5rem 2rem 4rem 8rem;
 display: flex;
 flex-direction: row; 
-justify-content: space-between;
+justify-content:center;
 align-items: center;
-gap: 6rem;
-position: relative;
+gap: 8rem;
+
 
 }
 
 .Nav_url{
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 6rem;
 }
 
 .Item_nav{
@@ -55,10 +63,7 @@ color: #00003c;
 
 .Logo-tyni{
   height: 2rem;
-  position: absolute;
-  top: 53%;
-  left: 9%;
-  transform: translate(-50% , -50%);
+  margin-right:10px;
 }
 
 /* Estilos del heading//////////////////////////////////// */
@@ -67,6 +72,8 @@ color: #00003c;
   position: relative;
 
 }
+
+
 .Text_heading{
   font-size:2em;
   padding: 0.5rem;
@@ -75,8 +82,9 @@ color: #00003c;
 }
 
 
+
 .People-image{
-  width: 70%;
+   width: 70%;
   position: absolute;
   top: 220%;
   left: 50%;
@@ -146,6 +154,7 @@ color: #00003c;
 .Text-subtittle{
   font-size: 2.2rem;
   font-weight:400;
+  margin-top: 15px;
 }
 
 .Screen-img {
@@ -165,14 +174,14 @@ color: #00003c;
 .Axis{
   width: 35rem;
   position: absolute;
-  top: 52.5%;
-  left: 47%;
+  top: 44%;
+  left: 49%;
   transform: translate(-50% , -50%);
 }
 
 .Axis-world2{
   position: absolute;
-  top: 52%;
+  top: 44%;
   left: 17%;
   transform: rotate(-90deg);
   font-size:2.2rem
@@ -181,8 +190,8 @@ color: #00003c;
 .Axis-world1{
   font-size:2.2rem;
   position: absolute;
-  top: 57.2%;
-  left: 39%;
+  top: 48%;
+  left: 40%;
 }
 
 .Titles-sub{
@@ -221,3 +230,120 @@ color: #00003c;
   margin-bottom:3rem;
 }
 
+.Container_dowland2{
+  margin:10rem 0rem 15rem 12rem;
+  display: flex;
+  flex-direction: row; 
+  align-items:center;
+  gap: 14.5rem;
+}
+
+.Container_footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem 4rem 8rem 10rem;
+}
+
+.Footer-section1{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.Lineas-vertical1{
+border-left: #00003c 2px dashed;
+margin-right: 5px;
+width: 5px;
+height: 150px;
+position: absolute;
+top: 96.3%;
+left: 47%;
+}
+.Lineas-vertical2{
+  border-left: #00003c 2px dashed;
+  margin-right: 5px;
+  width: 5px;
+  height: 150px;
+  position: absolute;
+  top: 96.3%;
+  left: 70%;
+  }
+.Instagram-logo-footer{
+  width: 5rem;
+}
+
+.Logo-symbol-footer{
+  width: 6rem;
+}
+
+.Logo-name-footer{
+  width: 11rem;
+}
+
+@media screen and (max-width:400px) {
+
+  .Nav_container {
+    padding: 5rem 2rem 4rem 8rem;
+    flex-direction:column;
+    gap:2rem;
+   }
+
+   .Nav_url{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+     .People-image{
+      width: 20%; 
+   }
+
+   .Text_heading {
+    font-size:10px;
+  }
+
+  .Bubble-img1 {
+    width:5rem;
+ 
+  }
+  
+  .message_bubble1 {
+      font-size:2px;
+  }
+  
+    .Bubble-img2 {
+      width:15rem;
+    }
+    
+    .message_bubble2 {
+        font-size:2px; 
+      }
+
+      
+      .subtittles{
+        font-size:1rem ;
+      }
+      .Tittles{
+        font-size: 1.2rem;
+      }
+      
+      .Text-dowland {
+        font-size:0.5rem;
+      }
+      
+      .Icon-dowland{
+        height: 1rem;
+      }
+      .Text-subtittle{
+        font-size: 1rem;
+      }
+      
+      .Screen-img {
+        width:7rem;
+  
+        
+      }
+    }
+      
+  

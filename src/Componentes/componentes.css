@@ -23,12 +23,10 @@
     top: 210%;
     left: 83%;
     transform: translate(-50% , -50%);
-    font-size:28px;
+    font-size:26px;
     font-family:'Roboto', sans-serif;
-    font-weight:900;
-    color:'#00003c';
-    white-space:pre-wrap
-    
+    font-weight:900;  
+    text-align: center;
   }
 
   .Bubble-img2 {
@@ -37,6 +35,7 @@
     top: 240%;
     left: 20%;
     transform: translate(-50% , -50%);
+  
   }
   
   .message_bubble2 {
@@ -44,10 +43,109 @@
       top: 233%;
       left: 20%;
       transform: translate(-50% , -50%);
-      font-size:28px;
+      font-size:26px;
       font-family:'Roboto', sans-serif;
       font-weight:900;
-      color:'#00003c';
-      white-space:pre-wrap
-      
+      text-align: center;
+      width: 20%;
     }
+
+   /*Estilos de la seccion de patrones */
+
+  .PatronImg{
+    width:9rem;
+  }
+
+.Traits {
+  font-size: 1.2rem;
+  font-weight:600;
+  margin-top:1rem;
+  /* margin-top:${(props)=>props.margin} */
+  }
+
+  .PatronImg_equilibrado{
+    width: 15rem;
+  }
+  
+
+.Trait_equilibrado {
+    color:#55f889;
+    font-size: 2rem;
+    font-weight:600;
+    margin-top:1rem;
+  }
+
+
+ .Container_grid {
+    display:grid;
+    grid-template-columns:auto auto auto;
+    column-gap: 0.3rem;
+    row-gap:1rem;
+    margin: 4rem 20rem 20rem 22rem;
+    align-items:flex-end
+   }
+  
+
+ .Patrons_trait {
+    display: grid;
+   justify-items:center;
+   }
+
+   /* Estilo del componete CardsHabilidades */
+
+
+   .Box-cards_habilidades {
+    width: 12rem;
+    height:16rem;
+    background-color:#f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius: 25px;
+    
+   }
+
+   .title-cards-habilidades{
+    font-size:20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:25px;
+    margin-bottom: 30px;
+    width:85%;
+   }
+
+   .image-cards-habilidades{
+    width: 8rem;
+   } 
+
+
+  .Arrow-right {
+    width: 20px;
+    height:40px;
+    position: absolute;
+    top: 55%;
+    left: 105%;
+    transform: translate(-50% , -50%);
+ 
+  }
+
+  .Container-externo-carrusel{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 10rem 0 14rem ;
+  }
+
+  .Arrow-left {
+    width: 20px;
+    height:40px ;
+    position: absolute;
+    top: 55%;
+    left: -5%;
+    transform: translate(-50% , -50%);
+  }
+

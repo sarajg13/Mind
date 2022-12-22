@@ -4,7 +4,8 @@ import './componentes.css'
 function Buttons (props) {
   return (
     <div>
-    <button className= 'Buttons  Item_nav'>{props.descripcion}</button>
+    <a href="https://mindtrackr.com/" className= 'Buttons  Item_nav'>{props.descripcion}
+    </a>
     </div>
 
   );
